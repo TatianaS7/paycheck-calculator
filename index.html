@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paycheck Calculator</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Paycheck Calculator</h1>
+
+    <!--<button type="submit" id="calculate-button" class="hourly" >Hourly</button>
+    <button type="submit" id="calculate-button" class="btn btn-primary" >Salary</button>-->
+
+
+    <form id="paycheck-form">
+        <div class="mb-3">
+            <label for="pay-rate" class="form-label">Pay Rate: </label>
+            <input type="number" class="form-control" id="pay-rate">
+        </div>
+        <div class="mb-3">
+            <label for="hours-worked" class="form-label">Hours Worked: </label>
+            <input type="number" class="form-control" id="hours-worked">
+        </div>
+        <button type="submit" id="calculate-button" class="btn btn-primary">Calculate</button>
+    </form>
+    <div id="your-pay"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
